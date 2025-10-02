@@ -24,4 +24,14 @@ I learned how to change the path connected to the docker command
 export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
 
 
+Revisited how to rebase and merge in git 
+
+...
+How to override nested dependency versions 
+
+I was having an issue where the project was relying on multple version s of @clerk/shared@3.27.0. This is not the solution to the problem, but I thought it was interesting that you can change waht dependencies pakcages rely on using overrides in the package.json. I don't do a lot of work in the file besides resolving conflicts between branches, information on how to control this file piqued my interested. 
+
+How do I override nested NPM dependency versions
+http://stackoverflow.com/questions/15806152/ddg#48524488
+
 
