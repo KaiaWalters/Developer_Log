@@ -1,5 +1,5 @@
 
-# 🗓️ Developer Log – [Date Range]
+# 🗓️ Developer Log
 
 ## 🛠 What I Worked On
 - Investigated Docker installation and path configuration issues
