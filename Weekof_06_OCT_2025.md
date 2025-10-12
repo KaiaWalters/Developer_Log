@@ -18,3 +18,6 @@ export function getText(path: string, fallback: string = ''): string {
 }
 
 ```
+
+
+Built new version of my portfolio
