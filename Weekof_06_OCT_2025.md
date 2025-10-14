@@ -1,23 +1,30 @@
-How array methods can be applied to traversing large json obkects and rverifying the existence of a value or provide a fallback path if that value does not exist. For the full example see: 
-
-```
-
-export function getText(path: string, fallback: string = ''): string {
-  const keys = path.split('.')
-  let current: any = textContent
-  
-  for (const key of keys) {
-    if (current && typeof current === 'object' && key in current) {
-      current = current[key]
-    } else {
-      return fallback
-    }
-  }
-  
-  return typeof current === 'string' ? current : fallback
-}
-
-```
 
 
-Built new version of my portfolio
+# 🗓️ Developer Log October 6th to October 14th 
+
+## 🛠 What I Worked On
+- Stack Neetcodes
+  - Valid Parentheses 
+  - Min Stack 
+  - Daily Temperatures 
+- Learning more about docker images and how to create containers with a friend
+- 
+
+## 📚 What I Learned
+**Docker & Terminal Path Management:**
+
+
+## ✅ What Went Well
+
+
+## 🚧 What Blocked Me
+
+
+## 🔜 Next Steps
+
+
+## 📝 Notes / Reflections
+
+
+
+
