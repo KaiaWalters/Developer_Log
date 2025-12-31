@@ -1,0 +1,30 @@
+# 🗓️ Developer Log December 31st
+
+## 🛠 What I Worked On
+
+- Project Mask Maker. An application for designing masks using Vue, Nuxt, and some kind of canvas. TBD. 
+
+## 📚 What I Learned
+- Nuxt Component Library 
+- Nuxt is Next for Vue applications and employs the similar concepts / strategies for making routing and compiling faster 
+- How to get started with Nuxt https://nuxt.com/docs/4.x/getting-started/installation
+
+
+How does Nuxt Server work? 
+
+
+## ✅ What Went Well
+
+
+## 🚧 What Blocked Me
+
+
+## 🔜 Next Steps
+
+
+## 📝 Notes / Reflections/ Outstanding Questions
+
+Speed up development and set up. 
+- How to get started with Nuxt https://nuxt.com/docs/4.x/getting-started/installation
+- Use Nuxt Component Library to create the layour of the project. I need to rely on component libraries in the future. DO NOT BUILD FROM SCRATCH. 
+- 
