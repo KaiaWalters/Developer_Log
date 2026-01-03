@@ -1,1 +1,30 @@
 
+# 🗓️ Developer Log December 31st
+
+## 🛠 What I Worked On
+
+- Rebranding Project Mask Maker to instead be an interior design tool. An application for creating digital models of a space to make moving easier. TBD. 
+
+## 📚 What I Learned
+
+### NUXT - Dev Tools
+
+- Nuxt devtools, getting started: https://devtools.nuxt.com/guide/getting-started
+- Devtools are automatically installed when you set ```  devtools: { enabled: true }, ``` in nuxt.config.ts. To use the dev tools on mac press "Shift", "Option", and "D"
+
+
+## ✅ What Went Well
+
+
+## 🚧 What Blocked Me
+
+
+## 🔜 Next Steps
+
+
+## 📝 Notes / Reflections/ Outstanding Questions
+
+Speed up development and set up. 
+- How to get started with Nuxt https://nuxt.com/docs/4.x/getting-started/installation
+- Use Nuxt Component Library to create the layour of the project. I need to rely on component libraries in the future. DO NOT BUILD FROM SCRATCH. 
+- 
