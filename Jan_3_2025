@@ -12,6 +12,9 @@
 - Nuxt devtools, getting started: https://devtools.nuxt.com/guide/getting-started
 - Devtools are automatically installed when you set ```  devtools: { enabled: true }, ``` in nuxt.config.ts. To use the dev tools on mac press "Shift", "Option", and "D"
 
+### SVGs and Canvas
+- Error with displaying icons in the canvas. Managing how SVGs are displayed using fmoreign object tag. I don't fully understand this fix yet. I need a deeper understandign of how SVG canvases work. https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/foreignObject
+- SVG files don't always render correctly with <image> in SVG — browser compatibility can be inconsistent. I want to understand why though. I am not sure what the pattern is here 
 
 ## ✅ What Went Well
 
