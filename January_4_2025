@@ -1,0 +1,37 @@
+
+# 🗓️ Developer Log December 31st
+
+## 🛠 What I Worked On
+
+Working on building an interior design tool using an SVG canvas to display and manipulate graphics. Yesterday I was able to add icons to the project and learned more about "foreign objects" in vue which make it easy to render icons. 
+Today I am working on fleshing out the structure of the app since I have a solid understadnign of how to work with the canvas. 
+
+Features I would like to see are: 
+  - Icons for common furniture pieces like beds, lamps, book shelfs, etc. 
+  - Providing the user with the ability to select and resize elements using their cursor or specific values. 
+  - Providing a default placement for elements using a button in the toolbar. For example, say I wanted to start with a basic bedroom layout. The icons could be placed already so the user does not have to add a bed, night stand, and other furniture pieces. 
+
+In the future I'll create accounts and save designs but really I am trying to get a deeper understanding of how to work with state in Nuxt and how ref, useState, and reactive are applied in practice
+I also want to see how to get common design features to work like resizing and snap to fit. 
+
+Having 
+
+## 📚 What I Learned
+
+
+
+## ✅ What Went Well
+
+
+## 🚧 What Blocked Me
+
+
+## 🔜 Next Steps
+
+
+## 📝 Notes / Reflections/ Outstanding Questions
+
+Speed up development and set up. 
+- How to get started with Nuxt https://nuxt.com/docs/4.x/getting-started/installation
+- Use Nuxt Component Library to create the layour of the project. I need to rely on component libraries in the future. DO NOT BUILD FROM SCRATCH. 
+- 
