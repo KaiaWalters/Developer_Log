@@ -15,7 +15,7 @@
 ### SVGs and Canvas
 - Error with displaying icons in the canvas. Managing how SVGs are displayed using fmoreign object tag. I don't fully understand this fix yet. I need a deeper understandign of how SVG canvases work. https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/foreignObject
 - SVG files don't always render correctly with <image> in SVG — browser compatibility can be inconsistent. I want to understand why though. I am not sure what the pattern is here 
-
+- When working with SVG canvases you are drawing on the dom and manipulating bjects using coordinates
 ## ✅ What Went Well
 
 
