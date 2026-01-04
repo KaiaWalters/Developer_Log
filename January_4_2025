@@ -4,7 +4,7 @@
 ## 🛠 What I Worked On
 
 Working on building an interior design tool using an SVG canvas to display and manipulate graphics. Yesterday I was able to add icons to the project and learned more about "foreign objects" in vue which make it easy to render icons. 
-Today I am working on fleshing out the structure of the app since I have a solid understadnign of how to work with the canvas. 
+Today I am working on fleshing out the structure of the app since I have a solid understadnign of how shapes and icons are manipulated on the canvas.  
 
 Features I would like to see are: 
   - Icons for common furniture pieces like beds, lamps, book shelfs, etc. 
@@ -14,9 +14,33 @@ Features I would like to see are:
 In the future I'll create accounts and save designs but really I am trying to get a deeper understanding of how to work with state in Nuxt and how ref, useState, and reactive are applied in practice
 I also want to see how to get common design features to work like resizing and snap to fit. 
 
-Having 
 
 ## 📚 What I Learned
+
+A new, free icon library: https://icons8.com/icons/authors/e8YoQIf8TqUn/smashing-stocks/external-smashingstocks-isometric-smashing-stocks/external-interior-smashingstocks-isometric-smashing-stocks
+
+### Resizing elements
+ - Onclick, how can the element be resized on the canvas? The CanavasStage component would detect the event in the dom, but then how is the elements w and h altered? 
+- Right now we are able to change the position of the element and alter its x and y 
+
+What is interesting about how the canvas is built is that the current size of the canvas determines the coordinates of a selected element on the page. So for example, if a canvas is
+
+### Moving elements - Continuous event firing and the appearance of smooth movement 🏃🏾‍♂️🏃🏾‍♂️🏃🏾‍♂️🏃🏾‍♂️
+``` 
+  <svg
+        ref="stageRef"
+        class="h-[520px] w-full select-none rounded-md bg-neutral-50"
+        role="application"
+        @pointerdown="onStagePointerDown"
+        @pointermove="onStagePointerMove" //is executed over 60+ times per second giving the appearance of smooth movement. The coordinates of the selected shape are continuosly updates by the ref and the final placement of the shape is saved in theis state variable. 
+        @pointerup="onStagePointerUp"
+        @pointerleave="onStagePointerLeave"
+      >
+```
+
+
+
+I was trying to understan
 
 
 
