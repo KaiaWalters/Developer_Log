@@ -16,6 +16,7 @@ See this articile for more information: https://nodemailer.com/usage/using-gmail
 
 ```
 //With OAuth, uses a token that gets refreshed by nodemailer...but how...but when? 
+//The token is refreshed after a user authenticates grants nodemailer permission to log into your gmail account...not ideal...
 
   auth: {
     type: "OAuth2",
