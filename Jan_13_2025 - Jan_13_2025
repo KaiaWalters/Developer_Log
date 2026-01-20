@@ -1,0 +1,36 @@
+
+Mono repo Next js 
+
+https://dev.to/rajeshnatarajan/how-to-build-a-monorepo-with-nextjs-3ljg
+
+Node based email service 
+https://nodemailer.com/
+SMTP - 
+
+Nodemailer with gmail 
+
+gmail requires an APP Password when working with SMPT. Applications / services that have you log in using your user name and password are called "Less Secure Apps" and are no longer supported by google at least not since . 
+
+Gmail is not the best service for production. I will need to change the SMPT service out with something more scalable next month. 
+See this articile for more information: https://nodemailer.com/usage/using-gmail
+
+```
+//With OAuth, uses a token that gets refreshed by nodemailer...but how...but when? 
+
+  auth: {
+    type: "OAuth2",
+    user: "me@gmail.com",
+    clientId: process.env.GOOGLE_CLIENT_ID,
+    clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+    refreshToken: process.env.GOOGLE_REFRESH_TOKEN,
+  },
+```
+
+```
+//With less secure auth, just uses user name and password 
+
+   auth: {
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASSWORD,
+    },
+```
